@@ -1,3 +1,15 @@
 *{
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "Antenna-Bold";
+    src: url(/font/Antenna-Bold.woff) format('truetype') ;
+}
+@font-face {
+    font-family: "Antenna-Medium";
+    src: url(/font/Antenna-Medium.woff) format('truetype') ;
+}
+@font-face {
+    font-family: "Antenna-Regular";
+    src: url(/font/Antenna-Regular.woff) format('truetype') ;
+}

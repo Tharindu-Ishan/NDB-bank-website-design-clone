@@ -1,0 +1,147 @@
+#menu-bar-1{
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 33.5px;
+    background-color: #231F20;
+    padding-left: 40px;
+}
+#menu-bar-1 li{
+    list-style: none;
+    
+}
+#menu-bar-1 li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Antenna-Regular" ,sans-serif;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 0.24px;
+    
+}
+.material-symbols-outlined{
+    font-size: 13px;      
+    text-decoration: none;
+    font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 2;
+          color: #fff;
+          width: 3px;
+          padding-top: 5px;
+    
+}
+#menu-bar-1 li a:hover{
+    text-decoration: underline;
+    
+}
+#menu-bar-2{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    background-color: red;
+    padding-left: 20px;
+}
+#menu-bar-2 li{
+    list-style: none;
+}
+#menu-bar-2 li a{
+    text-decoration: none;
+    padding: 12px 20px;
+    font-family: "Antenna-Bold";
+    font-size: 17px;
+    /* letter-spacing: 0.24px; */
+    color: white;
+    
+}
+#menu-bar-2 li:first-child a{
+    color: black;
+    
+}
+#menu-bar-2 li:nth-child(6) a{
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 30px;
+    margin-left: 20px;
+}
+#menu-bar-2 div img{
+    position: absolute;
+    right: 0;
+    top: 44px;
+}
+#menu-bar-2 li a:hover{
+    color: black;
+    
+}
+#wanitha{
+    height: 450px;
+    /* background-color: blueviolet; */
+}
+#wanitha img{
+    height: 100%;
+    width: 100%;
+}
+.features{
+    height: 330px;
+    padding: 50px 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+#content{
+    display: flex;
+    width: 1170px;
+    height: 230px;
+    /* background-color: #231F20; */
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.feature{
+    height: 115px;
+    width: 380px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background-color: red; */
+    
+}
+.ref{
+    height: 100%;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+.image-icon{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E6E6E6;
+    border-radius: 50%;
+}
+.image-icon img{
+    width: 45px;
+    height: 45px;
+}
+h4{
+    color: #000;
+    font-size: 1rem;
+    font-family: "Antenna-Medium";
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.navigation{
+    height: 500px;
+    background-color: #000;
+    display: flex;
+}
+.navigation div img{
+    height: 100%;
+    width: 100%;
+}
