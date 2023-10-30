@@ -170,3 +170,8 @@ p{
     height: 77.15px;
     width: 100%;
 }
+.link{
+    padding: 9.6px 14.4px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+}
