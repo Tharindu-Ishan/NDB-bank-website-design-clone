@@ -141,7 +141,32 @@ h4{
     background-color: #000;
     display: flex;
 }
-.navigation div img{
-    height: 100%;
+.navigation-image{
+    width: 100%;
+    background-size: contain; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: #fff;
+    font-family: "Antenna-Bold";
+    font-weight: normal;
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.1;
+    height: 57.2pxpx;
+    width: 100%;
+    margin-bottom: 20px;
+}
+p{
+    color: #fff;
+    font-family: "Antenna-Regular";
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.428571429;
+    font-size: 18px;
+    height: 77.15px;
     width: 100%;
 }
