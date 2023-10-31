@@ -171,7 +171,15 @@ p{
     width: 100%;
 }
 .link{
-    padding: 9.6px 14.4px;
+    padding: 10px 15px;
+    min-width: 140px;
+    text-align: center;
+    height: 39px;
     border: 2px solid #fff;
     border-radius: 100px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Antenna-Medium"
+    
 }
