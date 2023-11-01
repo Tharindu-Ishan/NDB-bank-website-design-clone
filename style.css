@@ -1,6 +1,11 @@
 *{
     box-sizing: border-box;
+    
 }
+:root{
+    font-size: 10px;
+}
+
 @font-face {
     font-family: "Antenna-Bold";
     src: url(/font/Antenna-Bold.woff) format('truetype') ;
