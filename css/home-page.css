@@ -180,6 +180,96 @@ p{
     text-decoration: none;
     color: #fff;
     font-size: 15px;
-    font-family: "Antenna-Medium"
+    font-family: "Antenna-Medium";  
+}
+.locate{
+    height: 240px;
+    background-color: #D8232A;
+    display: flex;
+    position: relative;
+}
+#container-left{
+    height: 240px;
+    width: 770px;
+    background-color: #671C1A;
+    position: relative;
+    
+}
+#container-left-context{
+    height: 240px;
+    width: 360px;
+    /* background-color: #2e6833; */
+    position: absolute;
+    right: 0;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;   
+}
+#clc{
+    width: 310px;
+    height: 151px;
+    /* background-color: wheat;   */
+}
+#clc h4{
+    font-family: "Antenna-Bold", sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  color: white;
+  margin-bottom: 18px;
+  margin-left: 0;
+}
+#clc p{
+    font-family: "Antenna-Regular", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;   
+}
+#container-right{
+    height: 240px;
+    width: 770px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+#container-right-context{
+    height: 151px;
+    width: 650px;
+    /* background-color: yellow; */
+    position: absolute;
+    right: 0;
+    
+    display: flex;
+    align-content: center; 
+    flex-wrap: wrap; 
+    /* padding-left: 50px;  */
+}
+#checkbox-options{
+    height: 27.85px;
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+}
+#search-bar{
+    height: 50px;
+    /* background-color: red; */
+    width: 100%;
+}
+.checkbox{
+    font-family: "Antenna-Medium";
+    font-size: 16px;
+    height: 100%;
+    width: 142px;
+    /* background-color: aqua; */
+    margin-right: 20px;
+    color:#fff
+    
+}
+#search{
+    height: 50px;
+    width: 624px;
+    font-family: "Antenna-Regular";
+    font-size: 16px;
     
 }
