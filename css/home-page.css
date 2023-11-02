@@ -280,7 +280,7 @@ footer{
     justify-content:center ;
     align-items: center;
 }
-footer div{
+footer #menu{
     height: 270px;
     width: 1170px;
     /* background-color: aqua; */
@@ -292,6 +292,8 @@ footer div{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 1px solid #333333;
+    margin-bottom: 15px;
     
 }
 #menu-items li{
@@ -308,4 +310,30 @@ footer div{
 }
 #menu-items li a:hover{
     text-decoration: underline;
+}
+.row-text-content{
+    height: 120px;
+    width: 100%;
+    /* background-color: #a73636; */
+}
+.copy{
+    color: #727272;
+  letter-spacing: 0.26px;
+  font-family: "Antenna-Regular", sans-serif;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 30px;
+}
+.credit{
+    font-size: 1.4rem;
+    color: #727272;
+    letter-spacing: 0.26px;
+    line-height: 4.5rem;
+    font-family: "Antenna-Regular", sans-serif;
+    text-align: center;
+}
+.credit a{
+    /* text-decoration: none; */
+    font-family: "Antenna-Regular", sans-serif;
+    color: #727272;
 }
