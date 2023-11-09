@@ -337,3 +337,19 @@ footer #menu{
     font-family: "Antenna-Regular", sans-serif;
     color: #727272;
 }
+.floating-menu{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    
+}
+.floating-menu li{
+    padding-bottom: 5px;
+    width: 50px;
+    height: 50px;
+    border-left: 1px solid #D8D8D8;
+    border-top: 1px solid #D8D8D8;
+    cursor: pointer;
+    list-style: none;
+    color: #828282;
+}
