@@ -131,7 +131,7 @@
 }
 h4{
     color: #000;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: "Antenna-Medium";
     margin-left: 10px;
     margin-bottom: 0;
@@ -271,6 +271,7 @@ p{
     width: 624px;
     font-family: "Antenna-Regular";
     font-size: 16px;
+    padding: 6px 12px;
     
 }
 footer{
@@ -340,16 +341,62 @@ footer #menu{
 .floating-menu{
     position: fixed;
     right: 0;
-    top: 50%;
-    
+    top: 39%;
+    z-index: 3;   
 }
 .floating-menu li{
-    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
     width: 50px;
     height: 50px;
     border-left: 1px solid #D8D8D8;
     border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
     cursor: pointer;
     list-style: none;
     color: #828282;
+    align-items: center;
+}
+.floating-menu-2{
+    position: fixed;
+    left: 0;
+    top: 39%;
+    z-index: 3;   
+}
+.floating-menu-2 li:first-child{
+    background-color: #39579A;
+    border-radius: 0 3px 0 0;
+}
+.floating-menu-2 li:nth-child(2){
+    background-color: #007BB6;
+}
+.floating-menu-2 li:nth-child(3){
+    background-color: #A728A8;
+}
+.floating-menu-2 li:nth-child(4){
+    background-color:  #E92A1D;
+}
+.floating-menu-2 li:last-child{
+    background-color: #1DA8E2;
+    border-radius: 0 0 3px 0;
+}
+
+.floating-menu-2 li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+
+    cursor: pointer;
+    list-style: none;
+    color: #828282;
+    align-items: center;
+}
+.floating-menu-2 li i{
+    font-size: 18px;
+    /* font-size: 1.8rem; */
+    color: #fff;
 }

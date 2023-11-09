@@ -16,4 +16,3 @@ This project is license uder [MIT License](License.txt)
 - CSS-3 
 
 ## Screenshots
-![image](https://github.com/Tharindu-Ishan/NDB-bank-website-design-clone/assets/140793481/4ddbfe08-beea-4bc5-ba3a-bbdcc28b56a7)
