@@ -4,7 +4,7 @@ The NDB Bank Design Clone project is a static website built with HTML and CSS. I
 
 Please note that this clone project is for educational and demonstration purposes only. It does not include any real search functionality or backend integration with the NDB Bank search engine.
 
-This is done by me to practice html,css  
+This is done by me to practice html,css.
 
 ## License
 copyright &copy; 2023 Tharindu Ishan <br>
